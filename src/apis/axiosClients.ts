@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const axiosClients = axios.create({
-  baseURL: 'https://zing-mp3-api-1999.herokuapp.com/api',
+  baseURL: 'https://zing-mp3-api-sigma.vercel.app/api/',
   timeout: 10000
 })
 
